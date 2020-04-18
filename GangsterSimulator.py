@@ -2,7 +2,7 @@ import random
 import time
 
 currentCrew = ['You']
-possibleCrew = ['Paul', 'Scott', 'Preston', 'Harry', 'Larry', 'Gary', 'Barry', 'Carrie']
+possibleCrew = ['Scott', 'Preston', 'Harry', 'Larry', 'Gary', 'Barry', 'Carrie']
 Money = 30
 roundsPlayed = 0
 
