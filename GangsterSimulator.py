@@ -38,11 +38,11 @@ def displayWeek():
     print ('Week:', roundsPlayed + 1)
 
 def display():
-    time.sleep(1)
     print ('Crewsize:',len(currentCrew),'members.')
     print ('Crewmember names:', *currentCrew, sep = " ")
     print ('You have:', Money,'Money.')
     print ()
+    input ()
     
 def turnChoice():
     time.sleep(1)
