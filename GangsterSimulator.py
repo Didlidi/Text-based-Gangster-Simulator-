@@ -42,7 +42,6 @@ def display():
     print ('Crewmember names:', *currentCrew, sep = " ")
     print ('You have:', Money,'Money.')
     print ()
-    input ()
     
 def turnChoice():
     time.sleep(1)
@@ -148,6 +147,7 @@ def doCrime():
         print ('You have a reasonable sized crew capable of some mid-tier crime...')
     if len(currentCrew) > 4:
         print ('You have a big team behind you. It is time to earn some serious cash!')
+    print ()
         
     while result == 0:
         result = random.randint (1, 4)
